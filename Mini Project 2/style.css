@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f0ff;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Input section */
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add button */
+#addBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#addBtn:hover {
+    background-color: #45a049;
+}
+
+/* Task list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f2f2f2;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Completed task */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Complete button */
+li button:first-child {
+    background-color: #2196F3;
+    color: white;
+}
+
+/* Delete button */
+li button:last-child {
+    background-color: #f44336;
+    color: white;
+}
+
+#message {
+    color: red;
+    font-size: 14px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 10px;
+}
